@@ -35,7 +35,7 @@ export default function TaskHero() {
                         <span className={classes.span}>task</span>hero
                     </Typography>
                 </Grid>
-                <Grid item xs={12} md= {6}>
+                <Grid item xs={12} sm= {6}>
                     <center>
                     <div className={classes.header}>
                         <div className={classes.heading}>
