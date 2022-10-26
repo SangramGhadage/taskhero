@@ -11,49 +11,41 @@ export default function Faq() {
             <div className={classes.root}>
                 <Grid container>
                 <Grid item xs={12} style={{ textAlign: 'start', margin: '2% 0 2% 3%' }}>
-                    <Typography variant="h5" noWrap={true}
+                    <h1
                         style={{
                             fontFamily: "Poppins",
                             fontStyle: 'normal',
                             fontWeight: 500,
-                            fontSize: '2.2rem',
+                            fontSize: '2rem',
                             overflow: 'hidden',
-                            whiteSpace: 'nowrap',
-                            textOverflow: 'ellipsis',
                             color: '#000000',
                         }}>
                         <span className={classes.span}>task</span>hero
-                    </Typography>
+                    </h1>
                 </Grid>
                 <Grid item xs={12} style={{ textAlign: 'start', margin: '0% 0 1% 3%' }}>
-                    <Typography variant="h5" noWrap={true}
+                    <h2
                         style={{
                             fontFamily: "Poppins",
                             fontStyle: 'normal',
-                            fontSize: '1.9rem',
+                            fontSize: '1.7rem',
                             fontWeight: 700,
-                            overflow: 'hidden',
-                            whiteSpace: 'nowrap',
-                            textOverflow: 'ellipsis',
                             color: '#000000',
                         }}>
                         TaskHero Terms & Conditions
-                    </Typography>
+                    </h2>
                 </Grid>
                 <Grid item xs={12} style={{ textAlign: 'start', margin: '0% 0 2% 3%' }}>
-                    <Typography variant="h6" noWrap={true}
+                    <h3  
                         style={{
                             fontFamily: "Poppins",
                             fontStyle: 'normal',
                             fontSize: '1rem',
                             fontWeight: 400,
-                            overflow: 'hidden',
-                            whiteSpace: 'nowrap',
-                            textOverflow: 'ellipsis',
                             color: '#000000',
                         }}>
                         Effective as of xx/xx/xxxx
-                    </Typography>
+                    </h3>
                 </Grid>
                 </Grid>
                 <div className={classes.root} style={{height: '90vh'}}>
